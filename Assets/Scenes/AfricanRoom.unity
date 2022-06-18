@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -569,6 +569,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d3747d1b7402a4a5ea8e748a67a03cc4, type: 2}
+    - target: {fileID: -2721697973015360909, guid: 2baae98f3944746c19768aa9efbc1b97, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04fddd8d4720f43e8a0f2839ba74950d, type: 2}
     - target: {fileID: 919132149155446097, guid: 2baae98f3944746c19768aa9efbc1b97, type: 3}
       propertyPath: m_Name
       value: 10057_wooden_door_v3_iterations-2
@@ -1243,6 +1247,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b50c54a3840a4d4387db30af219e4e2, type: 3}
+--- !u!1 &342912050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5323556709147569390, guid: 5b50c54a3840a4d4387db30af219e4e2, type: 3}
+  m_PrefabInstance: {fileID: 342912049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &342912051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5042708282137973590, guid: 5b50c54a3840a4d4387db30af219e4e2, type: 3}
+  m_PrefabInstance: {fileID: 342912049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &342912052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7936937413691361947, guid: 5b50c54a3840a4d4387db30af219e4e2, type: 3}
+  m_PrefabInstance: {fileID: 342912049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &342912053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342912050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6214693c1be847409ff7ea3daf0eb15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkTime: 0.15
+  blinkInterval: 3
+  LeftEye: {fileID: 342912052}
+  RightEye: {fileID: 342912051}
+  EyeLidMaterial: {fileID: 2100000, guid: be9d6ed08e4b046f1931af01cf96a576, type: 2}
 --- !u!1 &384164648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,7 +1409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &480632375
 Transform:
   m_ObjectHideFlags: 0
@@ -1607,7 +1643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &691050733
 Transform:
   m_ObjectHideFlags: 0
@@ -3406,6 +3442,38 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 10b60ecfd80e7471990119685bcc37dc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32b9b37bf09c0413d941437a8df00567, type: 3}
+--- !u!1 &1421951387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 32b9b37bf09c0413d941437a8df00567, type: 3}
+  m_PrefabInstance: {fileID: 1421951386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1421951388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 61703741823206121, guid: 32b9b37bf09c0413d941437a8df00567, type: 3}
+  m_PrefabInstance: {fileID: 1421951386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1421951389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3100114576813497124, guid: 32b9b37bf09c0413d941437a8df00567, type: 3}
+  m_PrefabInstance: {fileID: 1421951386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1421951390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421951387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6214693c1be847409ff7ea3daf0eb15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkTime: 0.15
+  blinkInterval: 3
+  LeftEye: {fileID: 1421951389}
+  RightEye: {fileID: 1421951388}
+  EyeLidMaterial: {fileID: 2100000, guid: 32e782a1802f34765b52e18999a3e4b3, type: 2}
 --- !u!1 &1625511463
 GameObject:
   m_ObjectHideFlags: 0
