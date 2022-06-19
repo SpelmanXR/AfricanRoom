@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AfricanRoom.unity
+    guid: 0b31a1253d63b4f3891b16c173a7fb6f
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a28da5e1e92554a209a4b677f61a5238, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1e96390d960fe4ada841c8a377ef9992, type: 2}
